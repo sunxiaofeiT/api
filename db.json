@@ -7,9 +7,9 @@
       "name": "北京大区营运数据",
       "charts": [
         { "id": 2, "index": 3 },
-        { "id": 2, "index": 3 },
-        { "id": 2, "index": 3 },
-        { "id": 2, "index": 3 },
+        { "id": 6, "index": 3 },
+        { "id": 7, "index": 3 },
+        { "id": 7, "index": 3 },
         { "id": 1, "index": 1 },
         { "id": 3, "index": 2 }
       ]
@@ -21,9 +21,9 @@
       "name": "南京大区数据",
       "charts": [
         { "id": 2, "index": 3 },
-        { "id": 2, "index": 3 },
-        { "id": 2, "index": 3 },
-        { "id": 2, "index": 4 },
+        { "id": 7, "index": 3 },
+        { "id": 6, "index": 3 },
+        { "id": 6, "index": 4 },
         { "id": 4, "index": 5 },
         { "id": 5, "index": 3 },
         { "id": 1, "index": 1 },
@@ -63,6 +63,20 @@
       "type": "text",
       "data": "123,123",
       "xvalue": "△ 2045    △ 34.5%",
+      "yvalue": "▽ 2045    ▽ 34.5%"
+    },
+    {
+      "id": 6,
+      "type": "text",
+      "data": "123,123",
+      "xvalue": "△ 2045    △ 34.5%",
+      "yvalue": ""
+    },
+    {
+      "id": 7,
+      "type": "text",
+      "data": "123,123",
+      "xvalue": "",
       "yvalue": "▽ 2045    ▽ 34.5%"
     },
     {
