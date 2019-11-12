@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "接口数据",
+  "scripts": {
+    "push": "git add . && git commit -m 'update db.json' && git push"
+  },
+  "main": "db.json",
+  "repository": "git@github.com:sunxiaofeiT/api.git",
+  "author": "Groot <sunpengfei03@meicai.cn>",
+  "license": "MIT"
+}
