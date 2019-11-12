@@ -20,6 +20,9 @@
       "category": "我的运营看板",
       "name": "南京大区数据",
       "charts": [
+        { "id": 2, "index": 3 },
+        { "id": 2, "index": 3 },
+        { "id": 2, "index": 3 },
         { "id": 2, "index": 4 },
         { "id": 4, "index": 5 },
         { "id": 5, "index": 3 },
