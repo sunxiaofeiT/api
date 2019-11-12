@@ -1,7 +1,7 @@
 {
   "dashboards-detail": [
     {
-      "id": 1,
+      "id": 2,
       "author": "author",
       "category": "我的运营看板",
       "name": "北京大区营运数据",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 1,
       "author": "author",
       "category": "我的运营看板",
       "name": "南京大区数据",
@@ -29,7 +29,8 @@
   ],
   "chart-detail": [
     { "id": 1, "title": "小程序流量追踪", "subTitle": "昨天", "time": "2019.10.11-2019.12.23", "type": "line", "params": "{width: 6, height: 3}" },
-    { "id": 2, "title": "网页流量追踪", "subTitle": "仅供参考", "time": "2019.10.11-2019.12.23", "type": "line", "params": "{width: 6, height: 3}" }
+    { "id": 2, "title": "网页流量追踪", "subTitle": "仅供参考", "time": "2019.10.11-2019.12.23", "type": "text", "params": "{width: 6, height: 3}" },
+    { "id": 3, "title": "网页流量", "subTitle": "仅供参考", "time": "2019.10.11-2019.12.23", "type": "ring", "params": "{width: 6, height: 3}" }
   ],
   "chart-data": [
     {
