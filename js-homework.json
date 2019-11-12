@@ -1,0 +1,99 @@
+{
+  "dashboards-detail": [
+    {
+      "id": 1,
+      "author": "author",
+      "category": "我的运营看板",
+      "name": "北京大区营运数据",
+      "charts": [
+        { "id": 2, "index": 3 },
+        { "id": 1, "index": 1 },
+        { "id": 3, "index": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "author",
+      "category": "我的运营看板",
+      "name": "南京大区数据",
+      "charts": [
+        { "id": 2, "index": 3 },
+        { "id": 1, "index": 1 },
+        { "id": 3, "index": 2 }
+      ]
+    }
+  ],
+  "my-dashboards": [
+    { "id": 1, "name": "南京大区数据", "category": "我的运营看板"},
+    { "id": 2, "name": "北京大区营运数据","category":"我的运营看板"}
+  ],
+  "chart-detail": [
+    { "id": 1, "title": "小程序流量追踪", "subTitle": "昨天", "time": "2019.10.11-2019.12.23", "type": "line", "params": "{width: 6, height: 3}" },
+    { "id": 2, "title": "网页流量追踪", "subTitle": "仅供参考", "time": "2019.10.11-2019.12.23", "type": "line", "params": "{width: 6, height: 3}" }
+  ],
+  "chart-data": [
+    {
+      "id": 1,
+      "type": "line",
+      "data": [
+        { "month": "Jan", "Tokyo": 7.0, "London": 3.9 },
+        { "month": "Feb", "Tokyo": 6.9, "London": 4.2 },
+        { "month": "Mar", "Tokyo": 9.5, "London": 5.7 },
+        { "month": "Apr", "Tokyo": 14.5, "London": 8.5 },
+        { "month": "May", "Tokyo": 18.4, "London": 11.9 }
+      ],
+      "key": "city",
+      "xvalue": "month",
+      "yvalue": "temperature",
+      "fields": ["Tokyo", "London"]
+    },
+    {
+      "id": 2,
+      "type": "text",
+      "data": "123,123",
+      "xvalue": "△ 2045    △ 34.5%",
+      "yvalue": "▽ 2045    ▽ 34.5%"
+    },
+    {
+      "id": 3,
+      "type": "ring",
+      "data": [
+        { "item": "事例一", "count": 40 },
+        { "item": "事例二", "count": 21 },
+        { "item": "事例三", "count": 17 },
+        { "item": "事例四", "count": 13 },
+        { "item": "事例五", "count": 9 }
+      ],
+      "xvalue": "item",
+      "yvalue": "count"
+    },
+    {
+      "id": 4,
+      "type": "histogram",
+      "data": [
+        { "year": "1951 年", "sales": 38 },
+        { "year": "1952 年", "sales": 52 },
+        { "year": "1956 年", "sales": 61 },
+        { "year": "1957 年", "sales": 145 },
+        { "year": "1958 年", "sales": 48 },
+        { "year": "1959 年", "sales": 38 },
+        { "year": "1960 年", "sales": 38 }
+      ],
+      "xvalue": "year",
+      "yvalue": "sales"
+    },
+    {
+      "id": 5,
+      "type": "pie",
+      "data": [
+        { "item": "事例一", "count": 40 },
+        { "item": "事例二", "count": 21 },
+        { "item": "事例三", "count": 17 },
+        { "item": "事例四", "count": 13 },
+        { "item": "事例五", "count": 9 }
+      ],
+      "xvalue": "item",
+      "yvalue": "count"
+    }
+  ]
+}
