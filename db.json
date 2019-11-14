@@ -8,7 +8,7 @@
       "charts": [
         { "id": 2, "index": 3 },
         { "id": 6, "index": 3 },
-        { "id": 7, "index": 3 },
+        { "id": 2, "index": 3 },
         { "id": 7, "index": 3 },
         { "id": 1, "index": 1 },
         { "id": 3, "index": 2 }
@@ -28,10 +28,10 @@
         { "id": 5, "index": 3 },
         { "id": 1, "index": 1 },
         { "id": 3, "index": 2 },
+        { "id": 5, "index": 2 },
+        { "id": 4, "index": 2 },
         { "id": 3, "index": 2 },
-        { "id": 3, "index": 2 },
-        { "id": 3, "index": 2 },
-        { "id": 3, "index": 2 }
+        { "id": 1, "index": 2 }
       ]
     }
   ],
@@ -67,23 +67,23 @@
     {
       "id": 2,
       "type": "text",
-      "data": "123,123",
-      "xvalue": "△ 2045    △ 34.5%",
-      "yvalue": "▽ 2045    ▽ 34.5%"
+      "data": "123,567",
+      "xvalue": "△ 145    △ 24.5%",
+      "yvalue": "▽ 545    ▽ 54.5%"
     },
     {
       "id": 6,
       "type": "text",
-      "data": "123,123",
+      "data": "125,123",
       "xvalue": "△ 2045    △ 34.5%",
       "yvalue": ""
     },
     {
       "id": 7,
       "type": "text",
-      "data": "123,123",
+      "data": "143,123",
       "xvalue": "",
-      "yvalue": "▽ 2045    ▽ 34.5%"
+      "yvalue": "▽ 2445    ▽ 34.5%"
     },
     {
       "id": 3,
